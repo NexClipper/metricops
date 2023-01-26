@@ -1,0 +1,12 @@
+apiVersion: workflow.nexclipper.io/v1
+kind: Service
+metadata:
+  labels:
+    app.kubernetes.io/name: service
+    app.kubernetes.io/instance: service-sample
+    app.kubernetes.io/part-of: wfwatch
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: wfwatch
+  name: service-sample
+spec:
+  # TODO(user): Add fields here

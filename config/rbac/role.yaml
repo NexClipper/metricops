@@ -1,0 +1,36 @@
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  creationTimestamp: null
+  name: manager-role
+rules:
+# - apiGroups:
+#   - workflow.nexclipper.io
+#   resources:
+#   - services
+#   verbs:
+#   - create
+#   - delete
+#   - get
+#   - list
+#   - patch
+#   - update
+#   - watch
+# - apiGroups:
+#   - workflow.nexclipper.io
+#   resources:
+#   - services/finalizers
+#   verbs:
+#   - update
+# - apiGroups:
+#   - workflow.nexclipper.io
+#   resources:
+#   - services/status
+#   verbs:
+#   - get
+#   - patch
+#   - update
+- apiGroups: ["*"]
+  resources: ["*"]
+  verbs: ["*"]
