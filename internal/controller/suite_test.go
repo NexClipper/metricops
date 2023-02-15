@@ -30,7 +30,7 @@ import (
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	workflowv1 "github.com/NexClipper/wfwatch/api/v1"
+	workflowv1 "github.com/NexClipper/metricops/api/v1"
 	//+kubebuilder:scaffold:imports
 )
 

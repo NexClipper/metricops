@@ -33,8 +33,8 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/healthz"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	workflowv1 "github.com/NexClipper/wfwatch/api/v1"
-	"github.com/NexClipper/wfwatch/internal/controller"
+	workflowv1 "github.com/NexClipper/metricops/api/v1"
+	"github.com/NexClipper/metricops/internal/controller"
 	//+kubebuilder:scaffold:imports
 )
 

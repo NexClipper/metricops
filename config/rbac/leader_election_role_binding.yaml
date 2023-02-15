@@ -5,8 +5,8 @@ metadata:
     app.kubernetes.io/name: rolebinding
     app.kubernetes.io/instance: leader-election-rolebinding
     app.kubernetes.io/component: rbac
-    app.kubernetes.io/created-by: wfwatch
-    app.kubernetes.io/part-of: wfwatch
+    app.kubernetes.io/created-by: metricops
+    app.kubernetes.io/part-of: metricops
     app.kubernetes.io/managed-by: kustomize
   name: leader-election-rolebinding
 roleRef:

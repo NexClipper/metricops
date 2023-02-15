@@ -1,4 +1,4 @@
-module github.com/NexClipper/wfwatch
+module github.com/NexClipper/metricops
 
 go 1.19
 

@@ -32,7 +32,7 @@ import (
 
 	argowfv1alpha1 "github.com/argoproj/argo-workflows/v3/pkg/apis/workflow/v1alpha1"
 
-	workflowv1 "github.com/NexClipper/wfwatch/api/v1"
+	workflowv1 "github.com/NexClipper/metricops/api/v1"
 )
 
 // ServiceReconciler reconciles a Service object
